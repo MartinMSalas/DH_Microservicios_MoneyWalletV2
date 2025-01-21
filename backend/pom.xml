@@ -9,7 +9,7 @@
 <relativePath/>
 <!--  lookup parent from repository  -->
 </parent>
-  <groupId>com.mmstechnology.app</groupId>
+  <groupId>com.mmstechnology.wallet</groupId>
   <artifactId>digitalmoneywallet</artifactId>
   <version>1.0-SNAPSHOT</version>
 
