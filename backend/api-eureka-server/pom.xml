@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.mmstechnology.wallet</groupId>
 		<artifactId>digital-money-wallet</artifactId>
-		<version>3.4.1</version>
+		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mmstechnology.wallet</groupId>

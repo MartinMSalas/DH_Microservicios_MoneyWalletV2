@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="product-service" />
-        <module name="api-config" />
         <module name="api-eureka-server" />
+        <module name="api-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="api-config" options="-parameters" />
+      <module name="api-config-server" options="-parameters" />
       <module name="api-eureka" options="-parameters" />
       <module name="api-eureka-server" options="-parameters" />
       <module name="product-service" options="-parameters" />
