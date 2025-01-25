@@ -4,15 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.mmstechnology.wallet</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.0</version>
+		<artifactId>digital-money-wallet</artifactId>
+		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mmstechnology.wallet.configserver</groupId>
-	<artifactId>api-config</artifactId>
+	<groupId>com.mmstechnology.wallet</groupId>
+	<artifactId>api-eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api_config_server</name>
-	<description>Config server for Digital Money Wallet</description>
+	<name>Eureka Server</name>
+	<description>Eureka Server for Digital Money Wallet</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -32,8 +32,12 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
 		<dependency>

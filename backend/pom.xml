@@ -5,23 +5,24 @@
   <parent>
 <groupId>org.springframework.boot</groupId>
 <artifactId>spring-boot-starter-parent</artifactId>
-<version>3.3.5</version>
+    <version>3.4.2</version>
 <relativePath/>
 <!--  lookup parent from repository  -->
 </parent>
   <groupId>com.mmstechnology.wallet</groupId>
-  <artifactId>digitalmoneywallet</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>digital-money-wallet</artifactId>
+  <version>3.4.2</version>
 
-  <name>MMS DMW</name>
+  <name>Digital Money Wallet</name>
   <packaging>pom</packaging>
   <modules>
-    <module>api_config_server</module>
-    <module>api_eureka</module>
-    <module>api_gateway</module>
+    <module>api-config-server</module>
+    <module>api-eureka-server</module>
+    <module>product-service</module>
+<!--    <module>api_gateway</module>
     <module>api_appuser</module>
     <module>api_wallet_account</module>
-    <module>api_operation</module>
+    <module>api_operation</module> -->
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
